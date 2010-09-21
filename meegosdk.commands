@@ -1,0 +1,7 @@
+sudo apt-get install mic2
+tar xjf /home/zhu/Downloads/e-MIP-handset_DEVEL-20100914.tar.bz2 e-MIP-handset_DEVEL-20100914/
+sudo mount -o loop e-MIP-handset_DEVEL-20100914/e-MIP-handset-devel-1.0.90.20100914.1352.img rootfs
+sudo mic-chroot rootfs
+sudo umount rootfs/
+ssh-keygen -t rsa -C "jiaping.zhu@windriver.com"
+cat .ssh/id_rsa.pub    #copy me to github.com 

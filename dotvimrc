@@ -1,0 +1,40 @@
+:syntax on
+:set hlsearch
+:set incsearch
+:colorscheme darkblue
+:set shiftwidth=4
+:set softtabstop=4
+":set expandtab
+:set showmode
+:set showcmd
+":let loaded_explorer = 1
+:let g:explVertical=1
+:let g:explSplitRight=1
+
+":set ruler
+:map <C-\> :cs<Space>find<Space>c<Space><C-R><C-W><CR>
+":set cst
+if has("cscope")
+set csto=0
+"set cst
+set nocsverb
+" add any database in current directory
+if filereadable("cscope.out")
+cs add cscope.out
+" else add database pointed to by environment
+elseif $CSCOPE_DB != ""
+cs add $CSCOPE_DB
+endif
+set csverb
+endif
+"set grepprg=find . -name "*.cpp" -o -name "*.C" -o -name "*.H" -o -name "*.c" -o -name "*.h"|xargs grep -n $* /dev/null
+:set grepprg=ggrep\ -n\ $*\ /dev/null
+nmap <Left> :bp<CR>
+nmap <Right> :bn<CR>
+nmap <F4> :bd<CR>
+:set encoding=utf-8
+: set fileencoding=utf-8
+"不要设置这个，这个是根据fileencodings自动探测出来的，
+"如果真想转码的话，可以在打开文件后再设置。
+:set fileencodings=utf-8,gb18030,big5
+":set spell
