@@ -4,9 +4,9 @@ sudo apt-get install exuberant-ctags vim
 
 sudo apt-get install g++
 sudo apt-get install libfontconfig1-dev # Building Qt needs this package
-sudo apt-get install libxext-dev libxtst-dev
+sudo apt-get install libxext-dev libxtst-dev libxrender-dev
 sudo apt-get install libdbus-1-dev     # enable "-dbus" for Qt building
 sudo apt-get install libghc6-opengl-dev # enable "-dbus" for Qt building
 
-
+sudo apt-get install minicom
 sudo apt-get install rpm2cpio 
