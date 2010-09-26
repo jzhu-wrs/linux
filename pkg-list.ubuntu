@@ -10,3 +10,4 @@ sudo apt-get install libghc6-opengl-dev # enable "-dbus" for Qt building
 
 sudo apt-get install minicom
 sudo apt-get install rpm2cpio 
+sudo apt-get install freemind 
