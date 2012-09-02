@@ -3,6 +3,8 @@ sudo apt-get install git-core
 sudo apt-get install exuberant-ctags vim
 
 sudo apt-get install g++
+sudo apt-get install automake
+sudo apt-get install build-essential
 sudo apt-get install libfontconfig1-dev # Building Qt needs this package
 sudo apt-get install libxext-dev libxtst-dev libxrender-dev libxdamage-dev
 sudo apt-get install libxrandr-dev #qt-mobility need this
@@ -10,6 +12,7 @@ sudo apt-get install libdbus-1-dev     # enable "-dbus" for Qt building
 sudo apt-get install libghc6-opengl-dev # enable "-dbus" for Qt building
 
 #tools
+sudo apt-get install ibus-googlepinyin
 sudo apt-get install minicom
 sudo apt-get install rpm2cpio 
 sudo apt-get install freemind 
@@ -30,4 +33,3 @@ sudo apt-get install libgtk2.0-dev
 sudo apt-get install libxml2-dev
 sudo apt-get install libgnutls-dev
 sudo apt-get install libnss3-dev
-
