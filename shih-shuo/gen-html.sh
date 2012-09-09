@@ -3,6 +3,7 @@ cat << EOF
 <title>世说新语译注（南朝宋）刘义庆 撰 许绍早等 译注</title>
 <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
 <meta name="cover" content="shihshuo-cover.png" />
+<link href="shihshuo.css" rel="stylesheet"type="text/css"/ >
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 </head>
 <style>
