@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+div.comment
+{
+	font-weight:lighter;
+}
+div.original
+{
+	font-weight:bold;
+}
+div.translation
+{
+	font-weight:bold;
+}
+h1
+{
+	color:green;
+}
+h2
+{
+        page-break-before:always;
+}
+h3
+{
+        margin-top:5%;
+        padding-top:5%;
+}
